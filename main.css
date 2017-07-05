@@ -1,0 +1,40 @@
+ body
+ {
+	text-align: left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	
+	width: 90%;
+	margin: 0 auto;
+	}
+	
+table {width: 100%;}
+
+table, th, td
+{
+	border:1px solid #98bf21;
+	padding: 0.9em;
+	margin: 0 auto;
+	border-collapse:collapse;
+	text-align: center;
+	font-size: 1em;
+}
+
+th
+{
+	font-size:1em;
+text-align:center;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#A7C942;
+color:#fff;
+
+}
+
+
+
+
+@media handheld and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 480px) and (orientation:portrait) {
+body {width: auto; font-size:12px; display:float;}
+table {width: 95%;}
+th, td {font-size: 0.9em;}
+}
